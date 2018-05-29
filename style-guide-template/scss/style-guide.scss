@@ -6,15 +6,7 @@
 
 @import 'partials/fonts'; // main site fonts
 
-/* -------------------------------- 
-
-xBackground 
-
--------------------------------- */
-
-body {
-	/* this is the page background */
-	background-color: $color-5;
+@import 'partials/background'; // site background color
 }
 
 /* -------------------------------- 
