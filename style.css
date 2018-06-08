@@ -10,11 +10,4 @@
 
 /* basic elements */
 
-@import 'partials/color-palette'; // color palette
 
-@import 'partials/fonts'; // main site fonts
-
-@import 'partials/background'; // site background color
-
-
-@import 'partials/typography';
