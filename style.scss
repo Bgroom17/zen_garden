@@ -46,6 +46,7 @@ abbr {}
 
 
 /* specific divs */
+<<<<<<< HEAD
 
 .page-wrapper {
 	width: 100%;
@@ -53,6 +54,42 @@ abbr {}
 	max-width: 1800px;
 	position: relative;
 	padding: 0 4%;
+=======
+.page-wrapper { 
+	
+	}
+
+.intro { 
+	
+	}
+
+<<<<<<< HEAD
+@import 'partials/typography'; //typography
+
+=======
+header h1 { 
+	
+	}
+header h2 { 
+	
+	}
+header {
+	
+}
+
+.summary {
+	
+	}
+.summary p {
+	
+	}
+
+.preamble {
+	
+	}
+.preamble h3 {
+	
+>>>>>>> 84f5709a1bd7e0f8c3ba6cba291b9ce099492b26
 }
 
 .intro {}
@@ -195,5 +232,15 @@ h3.resources {
 
 footer {}
 
+<<<<<<< HEAD
 footer a:link,
 footer a:visited {}
+=======
+footer { 
+	
+	}
+footer a:link, footer a:visited { 
+	 
+	}
+>>>>>>> dfd8f6c203925e80638bc37487fc3a730a538ed5
+>>>>>>> 84f5709a1bd7e0f8c3ba6cba291b9ce099492b26
