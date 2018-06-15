@@ -1,0 +1,125 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+/* basic elements */
+/* -------------------------------- 
+
+xBackground 
+
+-------------------------------- */
+/* line 7, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_background.scss */
+body {
+  /* this is the page background */
+  background-color: #f3e8d7; }
+
+/* specific divs */
+/* line 76, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-selection h3 {
+  font-family: "refrigerator-deluxe",sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  padding: 0.5em 0;
+  margin: 0.35em auto 0.75em;
+  background: url("img-lg-horiz-border.png") repeat-x top right, url("img-lg-horiz-border.png") repeat-x bottom left;
+  background-size: 15em;
+  line-height: 1; }
+
+/* line 89, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-selection {
+  margin: 0 auto; }
+
+/* line 93, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-selection ul {
+  list-style-type: none;
+  padding: 0;
+  overflow-x: hidden; }
+
+/* line 99, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-selection li {
+  color: transparent;
+  margin-bottom: 0.28em;
+  clear: both; }
+
+/* line 105, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-selection li a {
+  text-decoration: none;
+  color: #3f3d3a; }
+
+/* line 110, /Users/jalynzamora/Documents/WWD331/style.scss */
+.sidebar a:hover, sidebar a:focus {
+  color: #e5452c; }
+
+/* line 114, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-name {
+  font-style: italic;
+  background: #faf3e6;
+  padding-right: 0.25em; }
+
+/* line 120, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-name:after {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  color: #3f3d3a;
+  content: "....................................................................................................................."; }
+
+/* line 128, /Users/jalynzamora/Documents/WWD331/style.scss */
+.designer-name {
+  float: right;
+  font-family: "refrigerator-deluxe",sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  background: #faf3e6;
+  padding-left: 0.25em; }
+
+/* line 137, /Users/jalynzamora/Documents/WWD331/style.scss */
+h3.archives, h3.resources {
+  display: none; }
+
+/* line 141, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-archives {
+  margin: 0.8em auto;
+  position: relative; }
+
+/* line 146, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-archives ul {
+  list-style-type: none;
+  padding: 1.25em 0; }
+
+/* line 155, /Users/jalynzamora/Documents/WWD331/style.scss */
+.design-archives .viewall {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  font-size: 1.125em; }
+
+/* line 167, /Users/jalynzamora/Documents/WWD331/style.scss */
+.viewall a, .zen-resources a {
+  color: #3f3d3a;
+  text-decoration: none; }
+
+/* line 173, /Users/jalynzamora/Documents/WWD331/style.scss */
+.sidebar .wrapper {
+  background: url("img-lg-horiz-border.png") repeat-x bottom left;
+  background-size: 40em;
+  margin: 0 2px -1px; }
+
+/* line 181, /Users/jalynzamora/Documents/WWD331/style.scss */
+.zen-resources ul {
+  list-style-type: none;
+  margin: 0 auto;
+  font-family: "refrigerator-deluxe",sans-serif;
+  text-transform: uppercase;
+  text-align: center; }
+
+/* line 189, /Users/jalynzamora/Documents/WWD331/style.scss */
+.zen-resources li {
+  display: block;
+  text-align: center;
+  line-height: 1.6; }
+
+/*# sourceMappingURL=style.css.map */
