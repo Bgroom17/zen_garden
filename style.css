@@ -15,10 +15,36 @@ body {
   /* this is the page background */
   background-color: #f3e8d7; }
 
+/* line 17, /Users/jalynzamora/Documents/WWD331/style.scss */
+html {
+  overflow-y: auto;
+  background: #faf3e6;
+  background-size: 32em; }
+
+/* line 23, /Users/jalynzamora/Documents/WWD331/style.scss */
+body {
+  font: 112.5%/1.3 "ltc-bodoni-175", serif;
+  color: #3f3d3a;
+  overflow: auto; }
+
+/* line 31, /Users/jalynzamora/Documents/WWD331/style.scss */
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  color: #272625;
+  text-transform: uppercase; }
+
 /* specific divs */
-/* line 76, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 50, /Users/jalynzamora/Documents/WWD331/style.scss */
+.page-wrapper {
+  width: 100%;
+  margin: 0.25em auto;
+  max-width: 1800px;
+  position: relative;
+  padding: 0 4%; }
+
+/* line 75, /Users/jalynzamora/Documents/WWD331/style.scss */
 .design-selection h3 {
-  font-family: "refrigerator-deluxe",sans-serif;
+  font-family: "refrigerator-deluxe", sans-serif;
   font-size: 2em;
   letter-spacing: 0.05em;
   padding: 0.5em 0;
@@ -27,38 +53,39 @@ body {
   background-size: 15em;
   line-height: 1; }
 
-/* line 89, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 87, /Users/jalynzamora/Documents/WWD331/style.scss */
 .design-selection {
   margin: 0 auto; }
 
-/* line 93, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 91, /Users/jalynzamora/Documents/WWD331/style.scss */
 .design-selection ul {
   list-style-type: none;
   padding: 0;
   overflow-x: hidden; }
 
-/* line 99, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 97, /Users/jalynzamora/Documents/WWD331/style.scss */
 .design-selection li {
   color: transparent;
   margin-bottom: 0.28em;
   clear: both; }
 
-/* line 105, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 103, /Users/jalynzamora/Documents/WWD331/style.scss */
 .design-selection li a {
   text-decoration: none;
   color: #3f3d3a; }
 
-/* line 110, /Users/jalynzamora/Documents/WWD331/style.scss */
-.sidebar a:hover, sidebar a:focus {
+/* line 108, /Users/jalynzamora/Documents/WWD331/style.scss */
+.sidebar a:hover,
+sidebar a:focus {
   color: #e5452c; }
 
-/* line 114, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 113, /Users/jalynzamora/Documents/WWD331/style.scss */
 .design-name {
   font-style: italic;
   background: #faf3e6;
   padding-right: 0.25em; }
 
-/* line 120, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 119, /Users/jalynzamora/Documents/WWD331/style.scss */
 .design-name:after {
   float: left;
   width: 0;
@@ -66,17 +93,18 @@ body {
   color: #3f3d3a;
   content: "....................................................................................................................."; }
 
-/* line 128, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 127, /Users/jalynzamora/Documents/WWD331/style.scss */
 .designer-name {
   float: right;
-  font-family: "refrigerator-deluxe",sans-serif;
+  font-family: "refrigerator-deluxe", sans-serif;
   font-size: 1em;
   text-transform: uppercase;
   background: #faf3e6;
   padding-left: 0.25em; }
 
-/* line 137, /Users/jalynzamora/Documents/WWD331/style.scss */
-h3.archives, h3.resources {
+/* line 136, /Users/jalynzamora/Documents/WWD331/style.scss */
+h3.archives,
+h3.resources {
   display: none; }
 
 /* line 141, /Users/jalynzamora/Documents/WWD331/style.scss */
@@ -89,7 +117,7 @@ h3.archives, h3.resources {
   list-style-type: none;
   padding: 1.25em 0; }
 
-/* line 155, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 154, /Users/jalynzamora/Documents/WWD331/style.scss */
 .design-archives .viewall {
   text-align: center;
   text-transform: uppercase;
@@ -97,26 +125,27 @@ h3.archives, h3.resources {
   letter-spacing: 0.02em;
   font-size: 1.125em; }
 
-/* line 167, /Users/jalynzamora/Documents/WWD331/style.scss */
-.viewall a, .zen-resources a {
+/* line 165, /Users/jalynzamora/Documents/WWD331/style.scss */
+.viewall a,
+.zen-resources a {
   color: #3f3d3a;
   text-decoration: none; }
 
-/* line 173, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 172, /Users/jalynzamora/Documents/WWD331/style.scss */
 .sidebar .wrapper {
   background: url("img-lg-horiz-border.png") repeat-x bottom left;
   background-size: 40em;
   margin: 0 2px -1px; }
 
-/* line 181, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 179, /Users/jalynzamora/Documents/WWD331/style.scss */
 .zen-resources ul {
   list-style-type: none;
   margin: 0 auto;
-  font-family: "refrigerator-deluxe",sans-serif;
+  font-family: "refrigerator-deluxe", sans-serif;
   text-transform: uppercase;
   text-align: center; }
 
-/* line 189, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 187, /Users/jalynzamora/Documents/WWD331/style.scss */
 .zen-resources li {
   display: block;
   text-align: center;
