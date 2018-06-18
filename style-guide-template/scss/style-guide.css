@@ -16,7 +16,7 @@ xTypography
 -------------------------------- */
 /* line 7, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
 h1, h2 {
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Indie Flower", cursive;
   color: #4d767e; }
 
 /* line 12, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
@@ -178,7 +178,7 @@ xButtons
   box-shadow: none;
   border-radius: .25em;
   font-size: 1.4rem;
-  font-family: "Over the Rainbow", cursive;
+  font-family: "Limelight", cursive;
   color: #e4bb90;
   padding: .6em 2.2em;
   cursor: pointer;
@@ -382,7 +382,7 @@ html {
 /* line 20, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_basic-style.scss */
 body {
   font-size: 1.6rem;
-  font-family: "Avenir Next", sans-serif; }
+  font-family: "Indie Flower", cursive; }
 
 /* line 25, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_basic-style.scss */
 a {
@@ -394,7 +394,7 @@ img {
 
 /* line 33, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_basic-style.scss */
 input, textarea, select {
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Indie Flower", cursive;
   font-size: 1.6rem; }
 
 /* line 38, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_basic-style.scss */

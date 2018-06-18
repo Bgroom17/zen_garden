@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Over+the+Rainbow");
+@import url("https://fonts.googleapis.com/css?family=Limelight");
 /* -------------------------------- 
 
 xBackground 
@@ -9,35 +10,35 @@ body {
   /* this is the page background */
   background-color: #f3e8d7; }
 
-/* line 11, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 12, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 html {
   overflow-y: auto;
   background: #e4bb90;
   background-size: 32em; }
 
-/* line 17, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 18, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 body {
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Indie Flower", cursive;
   color: #3f3d3a;
   overflow: auto; }
 
-/* line 27, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 28, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: "Over the Rainbow", cursive;
+  font-family: "Limelight", cursive;
   text-align: center;
   color: #272625;
   text-transform: uppercase; }
 
-/* line 38, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 39, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 a:link {
   text-decoration: none;
   color: #4d767e; }
 
-/* line 52, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 53, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .page-wrapper {
   width: 100%;
   margin: 0.25em auto;
@@ -45,7 +46,7 @@ a:link {
   position: relative;
   padding: 0 4%; }
 
-/* line 92, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 93, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-selection h3 {
   font-family: "refrigerator-deluxe", sans-serif;
   font-size: 2em;
@@ -56,39 +57,39 @@ a:link {
   background-size: 15em;
   line-height: 1; }
 
-/* line 104, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 105, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-selection {
   margin: 0 auto; }
 
-/* line 108, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 109, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-selection ul {
   list-style-type: none;
   padding: 0;
   overflow-x: hidden; }
 
-/* line 114, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 115, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-selection li {
   color: transparent;
   margin-bottom: 0.28em;
   clear: both; }
 
-/* line 120, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 121, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-selection li a {
   text-decoration: none;
   color: #3f3d3a; }
 
-/* line 125, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 126, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .sidebar a:hover,
 sidebar a:focus {
   color: #e5452c; }
 
-/* line 130, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 131, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-name {
   font-style: italic;
   background: #faf3e6;
   padding-right: 0.25em; }
 
-/* line 136, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 137, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-name:after {
   float: left;
   width: 0;
@@ -96,7 +97,7 @@ sidebar a:focus {
   color: #3f3d3a;
   content: "....................................................................................................................."; }
 
-/* line 144, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 145, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .designer-name {
   float: right;
   font-family: "refrigerator-deluxe", sans-serif;
@@ -105,22 +106,22 @@ sidebar a:focus {
   background: #faf3e6;
   padding-left: 0.25em; }
 
-/* line 153, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 154, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 h3.archives,
 h3.resources {
   display: none; }
 
-/* line 158, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 159, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-archives {
   margin: 0.8em auto;
   position: relative; }
 
-/* line 163, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 164, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-archives ul {
   list-style-type: none;
   padding: 1.25em 0; }
 
-/* line 171, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 172, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-archives .viewall {
   text-align: center;
   text-transform: uppercase;
@@ -128,19 +129,19 @@ h3.resources {
   letter-spacing: 0.02em;
   font-size: 1.125em; }
 
-/* line 182, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 183, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .viewall a,
 .zen-resources a {
   color: #3f3d3a;
   text-decoration: none; }
 
-/* line 189, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 190, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .sidebar .wrapper {
   background: url("img-lg-horiz-border.png") repeat-x bottom left;
   background-size: 40em;
   margin: 0 2px -1px; }
 
-/* line 196, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 197, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .zen-resources ul {
   list-style-type: none;
   margin: 0 auto;
@@ -148,7 +149,7 @@ h3.resources {
   text-transform: uppercase;
   text-align: center; }
 
-/* line 204, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 205, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .zen-resources li {
   display: block;
   text-align: center;
