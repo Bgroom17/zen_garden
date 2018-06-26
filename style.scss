@@ -1,5 +1,5 @@
 //google fonts
-@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow'+'family=Limelight'+ 'family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Limelight|Old+Standard+TT|Over+the+Rainbow');
 
 //partials
 
@@ -11,14 +11,14 @@
 
 html {
 	overflow-y: auto;
-	background: $color-5;
+    background-image: url(map.jpg);
 	background-size: 32em;
 }
 
 body {
 	font-family: $primary-font;
 	color: #3f3d3a;
-	overflow: auto;
+	overflow: auto; 
 }
 
 p {
