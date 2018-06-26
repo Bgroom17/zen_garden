@@ -1,7 +1,5 @@
 //google fonts
-@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
-@import url('https://fonts.googleapis.com/css?family=Limelight');
-@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow'+'family=Limelight'+ 'family=Old+Standard+TT');
 
 //partials
 
@@ -9,6 +7,7 @@
 @import 'style-guide-template/scss/partials/background'; //site background color
 @import 'style-guide-template/scss/partials/fonts'; 
 //fonts
+@import 'style-guide-template/scss/partials/typography';
 
 html {
 	overflow-y: auto;
@@ -26,16 +25,7 @@ p {
 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-   font-family: $secondary-font;
-	text-align: center;
-	color: #272625;
-	text-transform: uppercase;
-}
+
 
 a:link {
     text-decoration: none;

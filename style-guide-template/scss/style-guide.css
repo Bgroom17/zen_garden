@@ -15,55 +15,39 @@ xTypography
 
 -------------------------------- */
 /* line 7, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
-h1, h2 {
-  font-family: "Old Standard TT", serif;
-  color: #4d767e; }
+h1, h2, h3, h4, h5 {
+  font-family: "Limelight", cursive;
+  color: black;
+  text-align: center;
+  text-transform: uppercase; }
 
-/* line 12, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 14, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
 h1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em; }
-  @media only screen and (min-width: 768px) {
-    /* line 12, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
-    h1 {
-      font-size: 3.2rem; } }
-  @media only screen and (min-width: 1024px) {
-    /* line 12, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
-    h1 {
-      font-size: 4rem; } }
 
-/* line 27, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 21, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
 h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0; }
-  @media only screen and (min-width: 768px) {
-    /* line 27, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
-    h2 {
-      font-size: 1.8rem;
-      margin: 1em 0 1.4em; } }
 
-/* line 38, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 28, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
 section > h2::before {
   /* number before each section title */
   color: silver; }
 
-/* line 43, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 33, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
 p {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   line-height: 1.4;
-  color: white; }
-  /* line 48, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+  color: #404040; }
+  /* line 38, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
   p a {
     color: #4d767e;
     text-decoration: underline; }
-  @media only screen and (min-width: 768px) {
-    /* line 43, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
-    p {
-      font-size: 1.6rem;
-      line-height: 1.6; } }
 
 /* -------------------------------- 
 
