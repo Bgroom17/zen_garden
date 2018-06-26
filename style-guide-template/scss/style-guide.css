@@ -14,17 +14,29 @@ body {
 xTypography 
 
 -------------------------------- */
+<<<<<<< HEAD
 /* line 7, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
 h1, h2 {
   font-family: "Indie Flower", cursive;
   color: #4d767e; }
 
 /* line 12, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
+=======
+/* line 7, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "Limelight", cursive;
+  color: black;
+  text-align: center;
+  text-transform: uppercase; }
+
+/* line 14, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+>>>>>>> e207a61712b307361a2121b98a11faa4b1cc93f4
 h1 {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em; }
+<<<<<<< HEAD
   @media only screen and (min-width: 768px) {
     /* line 12, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
     h1 {
@@ -35,10 +47,15 @@ h1 {
       font-size: 4rem; } }
 
 /* line 27, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
+=======
+
+/* line 21, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+>>>>>>> e207a61712b307361a2121b98a11faa4b1cc93f4
 h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin: 1em 0; }
+<<<<<<< HEAD
   @media only screen and (min-width: 768px) {
     /* line 27, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
     h2 {
@@ -46,14 +63,23 @@ h2 {
       margin: 1em 0 1.4em; } }
 
 /* line 38, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
+=======
+
+/* line 28, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+>>>>>>> e207a61712b307361a2121b98a11faa4b1cc93f4
 section > h2::before {
   /* number before each section title */
   color: silver; }
 
+<<<<<<< HEAD
 /* line 43, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
+=======
+/* line 33, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+>>>>>>> e207a61712b307361a2121b98a11faa4b1cc93f4
 p {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   line-height: 1.4;
+<<<<<<< HEAD
   color: white; }
   /* line 48, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
   p a {
@@ -64,6 +90,13 @@ p {
     p {
       font-size: 1.6rem;
       line-height: 1.6; } }
+=======
+  color: #404040; }
+  /* line 38, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+  p a {
+    color: #4d767e;
+    text-decoration: underline; }
+>>>>>>> e207a61712b307361a2121b98a11faa4b1cc93f4
 
 /* -------------------------------- 
 
@@ -382,7 +415,7 @@ html {
 /* line 20, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_basic-style.scss */
 body {
   font-size: 1.6rem;
-  font-family: "Indie Flower", cursive; }
+  font-family: "Old Standard TT", serif; }
 
 /* line 25, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_basic-style.scss */
 a {
@@ -394,7 +427,7 @@ img {
 
 /* line 33, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_basic-style.scss */
 input, textarea, select {
-  font-family: "Indie Flower", cursive;
+  font-family: "Old Standard TT", serif;
   font-size: 1.6rem; }
 
 /* line 38, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_basic-style.scss */
