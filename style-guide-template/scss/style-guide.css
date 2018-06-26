@@ -16,7 +16,7 @@ xTypography
 -------------------------------- */
 /* line 7, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
 h1, h2 {
-  font-family: "Indie Flower", cursive;
+  font-family: "Old Standard TT", serif;
   color: #4d767e; }
 
 /* line 12, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
@@ -382,7 +382,7 @@ html {
 /* line 20, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_basic-style.scss */
 body {
   font-size: 1.6rem;
-  font-family: "Indie Flower", cursive; }
+  font-family: "Old Standard TT", serif; }
 
 /* line 25, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_basic-style.scss */
 a {
@@ -394,7 +394,7 @@ img {
 
 /* line 33, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_basic-style.scss */
 input, textarea, select {
-  font-family: "Indie Flower", cursive;
+  font-family: "Old Standard TT", serif;
   font-size: 1.6rem; }
 
 /* line 38, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_basic-style.scss */
