@@ -5,10 +5,10 @@
 
 @import 'style-guide-template/scss/partials/color-palette'; // color palette
 @import 'style-guide-template/scss/partials/background'; //site background color
-@import 'style-guide-template/scss/partials/fonts'; 
-//fonts
-@import 'style-guide-template/scss/partials/typography';
-//typography
+@import 'style-guide-template/scss/partials/fonts'; //fonts
+@import 'style-guide-template/scss/partials/typography'; //typography
+@import 'style-guide-template/scss/partials/sidebar'; //sidebar
+
 html {
 	overflow-y: auto;
     background-image: url(map.jpg);
@@ -40,11 +40,7 @@ abbr {}
 
 
 .page-wrapper {
-	width: 100%;
-	margin: 0.25em auto;
-	max-width: 1800px;
-	position: relative;
-	padding: 0 4%;
+	
     }
 
 	.page-wrapper {}
@@ -77,131 +73,5 @@ abbr {}
 	.preamble {}
 
 	.preamble h3 {}
-
-	//sidebar
-	.design-selection h3 {
-		font-family: "refrigerator-deluxe", sans-serif;
-		font-size: 2em;
-		letter-spacing: 0.05em;
-		padding: 0.5em 0;
-		margin: 0.35em auto 0.75em;
-		background: url('img-lg-horiz-border.png') repeat-x top right,
-		url('img-lg-horiz-border.png') repeat-x bottom left;
-		background-size: 15em;
-		line-height: 1;
-	}
-
-	.design-selection {
-		margin: 0 auto;
-	}
-
-	.design-selection ul {
-		list-style-type: none;
-		padding: 0;
-		overflow-x: hidden;
-	}
-
-	.design-selection li {
-		color: transparent;
-		margin-bottom: 0.28em;
-		clear: both;
-	}
-
-	.design-selection li a {
-		text-decoration: none;
-		color: #3f3d3a;
-	}
-
-	.sidebar a:hover,
-	sidebar a:focus {
-		color: #e5452c;
-	}
-
-	.design-name {
-		font-style: italic;
-		background: #faf3e6;
-		padding-right: 0.25em;
-	}
-
-	.design-name:after {
-		float: left;
-		width: 0;
-		white-space: nowrap;
-		color: #3f3d3a;
-		content: "....................................................................................................................."
-	}
-
-	.designer-name {
-		float: right;
-		font-family: "refrigerator-deluxe", sans-serif;
-		font-size: 1em;
-		text-transform: uppercase;
-		background: #faf3e6;
-		padding-left: 0.25em;
-	}
-
-	h3.archives,
-	h3.resources {
-		display: none;
-	}
-
-	.design-archives {
-		margin: 0.8em auto;
-		position: relative;
-	}
-
-	.design-archives ul {
-		list-style-type: none; // background: 
-		//url('img-lg-horiz-border.png') repeat-x top right,
-		//url('img-lg-horiz-border.png') repeat-x bottom left;
-		//background-size: 36em;
-		padding: 1.25em 0;
-	}
-
-	.design-archives .viewall {
-		text-align: center;
-		text-transform: uppercase;
-		font-style: italic;
-		letter-spacing: 0.02em;
-		font-size: 1.125em;
-	}
-
-	.design-archives .previous a,
-	.design-archives .next a {}
-
-	.viewall a,
-	.zen-resources a {
-		color: #3f3d3a;
-		text-decoration: none;
-	}
-
-
-	.sidebar .wrapper {
-		background: url('img-lg-horiz-border.png') repeat-x bottom left;
-		background-size: 40em;
-		margin: 0 2px -1px;
-	}
-
-
-	.zen-resources ul {
-		list-style-type: none;
-		margin: 0 auto;
-		font-family: "refrigerator-deluxe", sans-serif;
-		text-transform: uppercase;
-		text-align: center;
-	}
-
-	.zen-resources li {
-		display: block;
-		text-align: center;
-		line-height: 1.6;
-	}
-
-
-	.supporting {}
-
-	footer {
-    
-    }
 
 

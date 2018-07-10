@@ -4,9 +4,10 @@
 xBackground 
 
 -------------------------------- */
-/* line 7, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_background.scss */
+/* line 7, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_background.scss */
 body {
   /* this is the page background */
+  opacity: 0.8;
   background-color: #f3e8d7; }
 
 /* -------------------------------- 
@@ -14,173 +15,151 @@ body {
 xTypography 
 
 -------------------------------- */
-/* line 7, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 7, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Limelight", cursive;
   color: black;
   text-align: center;
   text-transform: uppercase; }
 
-/* line 14, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 14, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
 h1 {
+  text-align: right;
   font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 .4em; }
 
-/* line 21, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 22, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
 h2 {
   font-weight: bold;
-  text-transform: uppercase;
+  text-align: right;
   margin: 1em 0; }
 
-/* line 28, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 29, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
 section > h2::before {
   /* number before each section title */
   color: silver; }
 
-/* line 33, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+/* line 34, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
 p {
   font-size: 1.7rem;
   line-height: 1.4;
   color: #404040; }
-  /* line 38, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+  /* line 39, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
   p a {
     color: #4d767e;
     text-decoration: underline; }
 
-/* line 12, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+@media only screen and (min-width: 768px) {
+  /* line 3, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-selection h3 {
+    font-family: "refrigerator-deluxe", sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    padding: 0.5em 0;
+    margin: 0.35em auto 0.75em;
+    background: url("img-lg-horiz-border.png") repeat-x top right, url("img-lg-horiz-border.png") repeat-x bottom left;
+    background-size: 15em;
+    line-height: 1; }
+  /* line 15, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-selection {
+    margin: 0 auto; }
+  /* line 19, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-selection ul {
+    list-style-type: none;
+    padding: 0;
+    overflow-x: hidden; }
+  /* line 25, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-selection li {
+    color: transparent;
+    margin-bottom: 0.28em;
+    clear: both; }
+  /* line 31, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-selection li a {
+    text-decoration: none;
+    color: #3f3d3a; }
+  /* line 36, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .sidebar a:hover,
+  sidebar a:focus {
+    color: #e5452c; }
+  /* line 41, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-name {
+    font-style: italic;
+    background: #faf3e6;
+    padding-right: 0.25em; }
+  /* line 47, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-name:after {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    color: #3f3d3a;
+    content: "....................................................................................................................."; }
+  /* line 55, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .designer-name {
+    float: right;
+    font-family: "refrigerator-deluxe", sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    background: #faf3e6;
+    padding-left: 0.25em; }
+  /* line 64, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  h3.archives,
+  h3.resources {
+    display: none; }
+  /* line 69, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-archives {
+    margin: 0.8em auto;
+    position: relative; }
+  /* line 74, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-archives ul {
+    list-style-type: none;
+    padding: 1.25em 0; }
+  /* line 82, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-archives .viewall {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 0.02em;
+    font-size: 1.125em; }
+  /* line 93, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .viewall a,
+  .zen-resources a {
+    color: #3f3d3a;
+    text-decoration: none; }
+  /* line 100, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .sidebar .wrapper {
+    background: url("img-lg-horiz-border.png") repeat-x bottom left;
+    background-size: 40em;
+    margin: 0 2px -1px; }
+  /* line 107, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .zen-resources ul {
+    list-style-type: none;
+    margin: 0 auto;
+    font-family: "refrigerator-deluxe", sans-serif;
+    text-transform: uppercase;
+    text-align: center; }
+  /* line 115, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .zen-resources li {
+    display: block;
+    text-align: center;
+    line-height: 1.6; } }
+
+/* line 12, /Users/jalynzamora/Documents/WWD331/style.scss */
 html {
   overflow-y: auto;
   background-image: url(map.jpg);
   background-size: 32em; }
 
-/* line 18, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 18, /Users/jalynzamora/Documents/WWD331/style.scss */
 body {
   font-family: "Old Standard TT", serif;
   color: #3f3d3a;
   overflow: auto; }
 
-/* line 28, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 28, /Users/jalynzamora/Documents/WWD331/style.scss */
 a:link {
   text-decoration: none;
   color: #4d767e; }
-
-/* line 42, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.page-wrapper {
-  width: 100%;
-  margin: 0.25em auto;
-  max-width: 1800px;
-  position: relative;
-  padding: 0 4%; }
-
-/* line 82, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-selection h3 {
-  font-family: "refrigerator-deluxe", sans-serif;
-  font-size: 2em;
-  letter-spacing: 0.05em;
-  padding: 0.5em 0;
-  margin: 0.35em auto 0.75em;
-  background: url("img-lg-horiz-border.png") repeat-x top right, url("img-lg-horiz-border.png") repeat-x bottom left;
-  background-size: 15em;
-  line-height: 1; }
-
-/* line 94, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-selection {
-  margin: 0 auto; }
-
-/* line 98, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-selection ul {
-  list-style-type: none;
-  padding: 0;
-  overflow-x: hidden; }
-
-/* line 104, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-selection li {
-  color: transparent;
-  margin-bottom: 0.28em;
-  clear: both; }
-
-/* line 110, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-selection li a {
-  text-decoration: none;
-  color: #3f3d3a; }
-
-/* line 115, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.sidebar a:hover,
-sidebar a:focus {
-  color: #e5452c; }
-
-/* line 120, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-name {
-  font-style: italic;
-  background: #faf3e6;
-  padding-right: 0.25em; }
-
-/* line 126, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-name:after {
-  float: left;
-  width: 0;
-  white-space: nowrap;
-  color: #3f3d3a;
-  content: "....................................................................................................................."; }
-
-/* line 134, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.designer-name {
-  float: right;
-  font-family: "refrigerator-deluxe", sans-serif;
-  font-size: 1em;
-  text-transform: uppercase;
-  background: #faf3e6;
-  padding-left: 0.25em; }
-
-/* line 143, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-h3.archives,
-h3.resources {
-  display: none; }
-
-/* line 148, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-archives {
-  margin: 0.8em auto;
-  position: relative; }
-
-/* line 153, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-archives ul {
-  list-style-type: none;
-  padding: 1.25em 0; }
-
-/* line 161, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-archives .viewall {
-  text-align: center;
-  text-transform: uppercase;
-  font-style: italic;
-  letter-spacing: 0.02em;
-  font-size: 1.125em; }
-
-/* line 172, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.viewall a,
-.zen-resources a {
-  color: #3f3d3a;
-  text-decoration: none; }
-
-/* line 179, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.sidebar .wrapper {
-  background: url("img-lg-horiz-border.png") repeat-x bottom left;
-  background-size: 40em;
-  margin: 0 2px -1px; }
-
-/* line 186, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.zen-resources ul {
-  list-style-type: none;
-  margin: 0 auto;
-  font-family: "refrigerator-deluxe", sans-serif;
-  text-transform: uppercase;
-  text-align: center; }
-
-/* line 194, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.zen-resources li {
-  display: block;
-  text-align: center;
-  line-height: 1.6; }
 
 /*# sourceMappingURL=style.css.map */
