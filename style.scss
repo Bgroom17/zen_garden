@@ -43,12 +43,18 @@ abbr {}
 	
     }
 
-	.page-wrapper {}
+
 
 	.intro {}
 
 
-	header h1 {}
+	header h1 {
+        background: url(../../../stamp.png) no-repeat 0.25em;
+        background-size: 20rem;
+    
+}
+
+
 	header h2 {}
 	header {}
 
