@@ -11,7 +11,7 @@
 
 html {
 	overflow-y: auto;
-    background-image: url(map.jpg);
+    background-image: url(map.jpg) ;
 	background-size: 32em;
 }
 
@@ -48,11 +48,13 @@ abbr {}
 	.intro {}
 
 
-	header h1 {
-        background: url(../../../stamp.png) no-repeat 0.25em;
+	header {
+        background: url(../../../stamp.png) no-repeat 1em;
         background-size: 20rem;
+        margin: 10px;
     
 }
+
 
 
 	header h2 {}
@@ -81,3 +83,14 @@ abbr {}
 	.preamble h3 {}
 
 
+@media only screen and (max-width:768px) {
+    header h1, h2 {
+       position: relative;
+        top: 30px;
+        padding: 30px;
+        
+        
+        
+        
+    }
+}
