@@ -80,6 +80,11 @@
 		font-style: italic;
 		letter-spacing: 0.02em;
 		font-size: 1.125em;
+		z-index: 2;
+    width: 100%;
+    min-height: 70px;
+    padding: 12px 0 0 0;
+    text-align: center;
 	}
 
 	.design-archives .previous a,
@@ -114,7 +119,9 @@
 	}
 
 
-	.supporting {}
+	.supporting {
+		
+}
 
 	footer {
     

@@ -47,23 +47,36 @@ abbr {}
 
 	.intro {}
 
-
-	header {
-        background: url(../../../stamp.png) no-repeat 1em;
-        background-size: 20rem;
-        margin: 10px;
-    
+header h1::before {
+	display: inline-block;
+	position: relative;
+	top: 20px;
+	content: "";
+	width: 300px;
+	height: 300px;
+	margin: -20px 20px 0 0;
+	background: url(stamp.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 
 
-	header h2 {}
+header h2::before {
+		content: " ";
+		padding: 50px;
+		
+}
 	header {}
 
-	.summary {}
-	.summary p {}
-
-	.preamble {}
+	.summary {
+		padding-top: 2em;
+		text-align: center;
+}
+	.summary .preamble {
+		width: 80%;
+		margin: 0 auto;
+}
 	.preamble h3 {}
 
 	.intro {}
@@ -83,7 +96,13 @@ abbr {}
 	.preamble h3 {}
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:768px) {
+	html{
+		 background-image: url(second_letter.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	
     header h1, h2 {
        position: relative;
         top: 30px;

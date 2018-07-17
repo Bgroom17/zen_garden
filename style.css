@@ -127,21 +127,26 @@ h3.resources {
   text-transform: uppercase;
   font-style: italic;
   letter-spacing: 0.02em;
-  font-size: 1.125em; }
+  font-size: 1.125em;
+  z-index: 2;
+  width: 100%;
+  min-height: 70px;
+  padding: 12px 0 0 0;
+  text-align: center; }
 
-/* line 88, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+/* line 93, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
 .viewall a,
 .zen-resources a {
   color: #3f3d3a;
   text-decoration: none; }
 
-/* line 95, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+/* line 100, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
 .sidebar .wrapper {
   background: url("img-lg-horiz-border.png") repeat-x bottom left;
   background-size: 40em;
   margin: 0 2px -1px; }
 
-/* line 102, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+/* line 107, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
 .zen-resources ul {
   list-style-type: none;
   margin: 0 auto;
@@ -149,7 +154,7 @@ h3.resources {
   text-transform: uppercase;
   text-align: center; }
 
-/* line 110, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+/* line 115, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
 .zen-resources li {
   display: block;
   text-align: center;
@@ -172,14 +177,41 @@ a:link {
   text-decoration: none;
   color: #4d767e; }
 
-/* line 51, /Users/jalynzamora/Documents/WWD331/style.scss */
-header {
-  background: url(../../../stamp.png) no-repeat 1em;
-  background-size: 20rem;
-  margin: 10px; }
+/* line 50, /Users/jalynzamora/Documents/WWD331/style.scss */
+header h1::before {
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  content: "";
+  width: 300px;
+  height: 300px;
+  margin: -20px 20px 0 0;
+  background: url(stamp.png);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
-@media only screen and (max-width: 768px) {
-  /* line 87, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 65, /Users/jalynzamora/Documents/WWD331/style.scss */
+header h2::before {
+  content: " ";
+  padding: 50px; }
+
+/* line 72, /Users/jalynzamora/Documents/WWD331/style.scss */
+.summary {
+  padding-top: 2em;
+  text-align: center; }
+
+/* line 76, /Users/jalynzamora/Documents/WWD331/style.scss */
+.summary .preamble {
+  width: 80%;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 768px) {
+  /* line 100, /Users/jalynzamora/Documents/WWD331/style.scss */
+  html {
+    background-image: url(second_letter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  /* line 106, /Users/jalynzamora/Documents/WWD331/style.scss */
   header h1, h2 {
     position: relative;
     top: 30px;
