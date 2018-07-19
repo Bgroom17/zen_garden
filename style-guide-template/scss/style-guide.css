@@ -46,8 +46,8 @@ section > h2::before {
 p {
   font-size: 1.7rem;
   line-height: 1.4;
-  color: #404040; }
-  /* line 41, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
+  color: #262626; }
+  /* line 40, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
   p a {
     color: #4d767e;
     text-decoration: underline; }
