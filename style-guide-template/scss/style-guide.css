@@ -46,8 +46,13 @@ section > h2::before {
 p {
   font-size: 1.7rem;
   line-height: 1.4;
+<<<<<<< HEAD
   color: #404040; }
   /* line 41, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
+=======
+  color: #262626; }
+  /* line 40, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_typography.scss */
+>>>>>>> bf5deebb2bc3806652caa85fb921c28e9e285604
   p a {
     color: black;
     text-decoration: underline; }

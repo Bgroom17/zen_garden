@@ -36,11 +36,17 @@ section > h2::before {
 p {
 	font-size: 1.7rem;
 	line-height: 1.4;
+<<<<<<< HEAD
 	color: lighten($color-6, 25%);
 
 	a {
 		color: $color-6;
+=======
+	color: lighten($color-6, 15%);
+a {
+		color: $color-1;
+>>>>>>> bf5deebb2bc3806652caa85fb921c28e9e285604
 		text-decoration: underline;
 	}
-
+	
 }
