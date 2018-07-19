@@ -128,6 +128,11 @@
 	.supporting {
 		display: inline;
 	}
+	
+	.design-archives, .design-selection,
+	.zen-resources, footer{
+		font-family: 'Raleway', sans-serif;
+	}
 
 	.design-archives, .design-selection,
 	.zen-resources {
@@ -212,7 +217,7 @@
 		position: absolute;
 		top: 420px;
 		right: 0;
-		width: 23.3%;
+		width: 22.3%;
 		padding: 0 0 20px 0;
 		margin: 0;
 		overflow: visible;

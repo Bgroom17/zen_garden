@@ -158,6 +158,10 @@ p {
     display: inline; }
   /* line 132, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .design-archives, .design-selection,
+  .zen-resources, footer {
+    font-family: 'Raleway', sans-serif; }
+  /* line 137, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-archives, .design-selection,
   .zen-resources {
     position: absolute;
     top: 720px;
@@ -167,7 +171,7 @@ p {
     margin: 0;
     overflow: visible;
     background: transparent; }
-  /* line 143, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 148, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .design-archives {
     position: absolute;
     top: 520px;
@@ -177,40 +181,40 @@ p {
     margin: 0;
     overflow: visible;
     background: transparent; }
-  /* line 153, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 158, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .design-selection {
     margin: 3em 0 0; }
-  /* line 156, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 161, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   design-selection ul,
   .zen-resources ul {
     margin: 0; }
-  /* line 160, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 165, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .design-selection li {
     text-align: center;
     float: none;
     width: 100% !important;
     padding: 1em !important;
     margin-bottom: 2em; }
-  /* line 167, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 172, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .zen-resources li {
     text-align: center;
     float: none;
     width: 100% !important;
     padding: 1em !important;
     margin-bottom: .5em; }
-  /* line 175, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 180, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .design-archives li {
     text-align: center;
     float: none;
     width: 100% !important;
     padding: 1em !important;
     margin-bottom: .5em; }
-  /* line 184, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 189, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .sidebar ul {
     padding: 0;
     list-style: none;
     overflow: hidden; }
-  /* line 189, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 194, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   ul,
   menu,
   dir {
@@ -220,23 +224,23 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px; }
-  /* line 199, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 204, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   body {
     font-size: 100%;
     color: #325050; }
-  /* line 204, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 209, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .zen-resources {
     top: 1490px;
     position: absolute;
     right: 0;
     width: 34%;
     background: transparent; }
-  /* line 211, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 216, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   footer {
     position: absolute;
     top: 420px;
     right: 0;
-    width: 23.3%;
+    width: 22.3%;
     padding: 0 0 20px 0;
     margin: 0;
     overflow: visible;
