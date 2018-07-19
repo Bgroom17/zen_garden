@@ -124,9 +124,23 @@ header {}
 	background-size: auto, auto, cover;
 }
 
+.design-archives {
+     background-attachment: scroll, scroll, fixed;
+	background-color: $color-5;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+
 .design-selection {
     background-attachment: scroll, scroll, fixed;
-	background-color: $color-5;
+	background-color: $color-3;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+
+.zen-resources {
+    background-attachment: scroll, scroll, fixed;
+	background-color: $color-3;
 	background-repeat: repeat, repeat, no-repeat;
 	background-size: auto, auto, cover;
 }
