@@ -117,59 +117,12 @@ header h2 {}
 
 header {}
 
-.summary {
-    background-attachment: scroll, scroll, fixed;
-	background-color: $color-3;
-	background-repeat: repeat, repeat, no-repeat;
-	background-size: auto, auto, cover;
-}
-
 .design-archives {
      background-attachment: scroll, scroll, fixed;
 	background-color: $success;
 	background-repeat: repeat, repeat, no-repeat;
 	background-size: auto, auto, cover;
 }
-
-.design-selection {
-    background-attachment: scroll, scroll, fixed;
-	background-color: $color-3;
-	background-repeat: repeat, repeat, no-repeat;
-	background-size: auto, auto, cover;
-}
-
-.zen-resources {
-    background-attachment: scroll, scroll, fixed;
-	background-color: $color-5;
-	background-repeat: repeat, repeat, no-repeat;
-	background-size: auto, auto, cover;
-}
-
-.summary p {}
-
-.preamble {
-    background-attachment: scroll, scroll, fixed;
-	background-color: $color-4;
-	background-repeat: repeat, repeat, no-repeat;
-	background-size: auto, auto, cover;
-}
-
-.participation {
-      background-attachment: scroll, scroll, fixed;
-	background-color: $color-3;
-	background-repeat: repeat, repeat, no-repeat;
-	background-size: auto, auto, cover;
-}
-
-.requirements {
-     background-attachment: scroll, scroll, fixed;
-	background-color: $color-4;
-	background-repeat: repeat, repeat, no-repeat;
-	background-size: auto, auto, cover;
-    
-}
-
-.preamble h3 {}
 
 div.explanation {
     background-attachment: scroll, scroll, fixed;
@@ -184,6 +137,7 @@ div.benefits {
 	background-repeat: repeat, repeat, no-repeat;
 	background-size: auto, auto, cover;
 }
+
 
 
 
@@ -246,4 +200,54 @@ div.benefits {
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+    .zen-resources {
+    background-attachment: scroll, scroll, fixed;
+	background-color: $color-5;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+    .summary {
+    background-attachment: scroll, scroll, fixed;
+	background-color: $color-3;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+
+
+
+.design-selection {
+    background-attachment: scroll, scroll, fixed;
+	background-color: $color-3;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+
+
+
+
+
+.preamble {
+    background-attachment: scroll, scroll, fixed;
+	background-color: $color-4;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+
+.participation {
+      background-attachment: scroll, scroll, fixed;
+	background-color: $color-3;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+
+.requirements {
+     background-attachment: scroll, scroll, fixed;
+	background-color: $color-4;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+    
+}
+
+
+
 }

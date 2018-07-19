@@ -151,7 +151,7 @@ p {
     text-align: center;
     line-height: 1.6; } }
 
-@media only screen and (min-width: 1132px) {
+@media only screen and (min-width: 769px) {
   /* line 127, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_sidebar.scss */
   article,
   aside,
@@ -329,62 +329,20 @@ header h2::before {
   margin: 0 auto; }
 
 /* line 120, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.summary {
-  background-attachment: scroll, scroll, fixed;
-  background-color: #8da19c;
-  background-repeat: repeat, repeat, no-repeat;
-  background-size: auto, auto, cover; }
-
-/* line 127, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 .design-archives {
   background-attachment: scroll, scroll, fixed;
   background-color: #794940;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover; }
 
-/* line 134, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.design-selection {
-  background-attachment: scroll, scroll, fixed;
-  background-color: #8da19c;
-  background-repeat: repeat, repeat, no-repeat;
-  background-size: auto, auto, cover; }
-
-/* line 141, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.zen-resources {
-  background-attachment: scroll, scroll, fixed;
-  background-color: #e4bb90;
-  background-repeat: repeat, repeat, no-repeat;
-  background-size: auto, auto, cover; }
-
-/* line 150, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.preamble {
-  background-attachment: scroll, scroll, fixed;
-  background-color: #e6e6e6;
-  background-repeat: repeat, repeat, no-repeat;
-  background-size: auto, auto, cover; }
-
-/* line 157, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.participation {
-  background-attachment: scroll, scroll, fixed;
-  background-color: #8da19c;
-  background-repeat: repeat, repeat, no-repeat;
-  background-size: auto, auto, cover; }
-
-/* line 164, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
-.requirements {
-  background-attachment: scroll, scroll, fixed;
-  background-color: #e6e6e6;
-  background-repeat: repeat, repeat, no-repeat;
-  background-size: auto, auto, cover; }
-
-/* line 174, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 127, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 div.explanation {
   background-attachment: scroll, scroll, fixed;
   background-color: #794940;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover; }
 
-/* line 181, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+/* line 134, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
 div.benefits {
   background-attachment: scroll, scroll, fixed;
   background-color: #e4bb90;
@@ -392,16 +350,16 @@ div.benefits {
   background-size: auto, auto, cover; }
 
 @media only screen and (min-width: 768px) {
-  /* line 191, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  /* line 145, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
   html {
     background-image: url(); }
-  /* line 196, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  /* line 150, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
   header h1,
   h2 {
     position: relative;
     top: 30px;
     padding: 30px; }
-  /* line 202, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  /* line 156, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
   .summary,
   .preamble,
   .supporting div,
@@ -413,7 +371,7 @@ div.benefits {
     padding: 1em 5% 1em 10%; } }
 
 @media only screen and (min-width: 1132px) {
-  /* line 218, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  /* line 172, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
   .summary,
   .participation p,
   .preamble p,
@@ -426,10 +384,10 @@ div.benefits {
     width: 75%;
     clear: left;
     padding: 1em 5% 1em 10%; }
-  /* line 233, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  /* line 187, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
   .summary, .preamble {
     margin: 0 auto; }
-  /* line 237, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  /* line 191, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
   h1::before {
     display: inline-block;
     position: relative;
@@ -440,6 +398,42 @@ div.benefits {
     margin: -90px 1200px 0 0;
     background: url(stamp.png);
     background-size: 100%;
-    background-repeat: no-repeat; } }
+    background-repeat: no-repeat; }
+  /* line 203, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  .zen-resources {
+    background-attachment: scroll, scroll, fixed;
+    background-color: #e4bb90;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover; }
+  /* line 209, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  .summary {
+    background-attachment: scroll, scroll, fixed;
+    background-color: #8da19c;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover; }
+  /* line 218, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  .design-selection {
+    background-attachment: scroll, scroll, fixed;
+    background-color: #8da19c;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover; }
+  /* line 229, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  .preamble {
+    background-attachment: scroll, scroll, fixed;
+    background-color: #e6e6e6;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover; }
+  /* line 236, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  .participation {
+    background-attachment: scroll, scroll, fixed;
+    background-color: #8da19c;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover; }
+  /* line 243, /Users/andreawagner/Documents/WDD 331/zen_garden/style.scss */
+  .requirements {
+    background-attachment: scroll, scroll, fixed;
+    background-color: #e6e6e6;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover; } }
 
 /*# sourceMappingURL=style.css.map */
