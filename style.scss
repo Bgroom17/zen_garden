@@ -126,7 +126,7 @@ header {}
 
 .design-archives {
      background-attachment: scroll, scroll, fixed;
-	background-color: $color-5;
+	background-color: $success;
 	background-repeat: repeat, repeat, no-repeat;
 	background-size: auto, auto, cover;
 }
@@ -140,7 +140,7 @@ header {}
 
 .zen-resources {
     background-attachment: scroll, scroll, fixed;
-	background-color: $color-3;
+	background-color: $color-5;
 	background-repeat: repeat, repeat, no-repeat;
 	background-size: auto, auto, cover;
 }
@@ -171,7 +171,13 @@ header {}
 
 .preamble h3 {}
 
-div.explanation,
+div.explanation {
+    background-attachment: scroll, scroll, fixed;
+	background-color: $success;
+	background-repeat: repeat, repeat, no-repeat;
+	background-size: auto, auto, cover;
+}
+
 div.benefits {
 	background-attachment: scroll, scroll, fixed;
 	background-color: $color-5;
