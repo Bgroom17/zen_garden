@@ -149,11 +149,19 @@
 		margin: 0;
 	}
 	.design-selection li {
-		float: none;
+		float: right;
 		width: 100% !important;
 		padding: 0 !important;
 		margin-bottom: 2em;
 	}
+	.design-selection li {
+		font-size: 1.2rem;
+		margin: 0 0 1em;
+		color: #aaa;
+		display: list-item;
+		text-align: -webkit-match-parent;
+	}
+
 	.sidebar ul {
 		padding: 0;
 		list-style: none;

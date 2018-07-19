@@ -176,16 +176,23 @@ p {
     margin: 0; }
   /* line 151, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .design-selection li {
-    float: none;
+    float: right;
     width: 100% !important;
     padding: 0 !important;
     margin-bottom: 2em; }
   /* line 157, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-selection li {
+    font-size: 1.2rem;
+    margin: 0 0 1em;
+    color: #aaa;
+    display: list-item;
+    text-align: -webkit-match-parent; }
+  /* line 165, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .sidebar ul {
     padding: 0;
     list-style: none;
     overflow: hidden; }
-  /* line 162, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 170, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   ul,
   menu,
   dir {
@@ -195,11 +202,11 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px; }
-  /* line 172, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 180, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   body {
     font-size: 100%;
     color: #325050; }
-  /* line 177, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 185, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .zen-resources {
     top: 1490px;
     position: absolute;
