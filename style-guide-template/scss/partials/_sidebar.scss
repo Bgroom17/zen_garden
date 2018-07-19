@@ -67,10 +67,7 @@
 	}
 
 	.design-archives ul {
-		list-style-type: none; // background: 
-		//url('img-lg-horiz-border.png') repeat-x top right,
-		//url('img-lg-horiz-border.png') repeat-x bottom left;
-		//background-size: 36em;
+		list-style-type: none;
 		padding: 1.25em 0;
 	}
 
@@ -98,10 +95,12 @@
 
 
 	.sidebar .wrapper {
-		background: url('img-lg-horiz-border.png') repeat-x bottom left;
-		background-size: 40em;
 		margin: 0 2px -1px;
 	}
+
+.design-selection ul, .zen-resources ul {
+    margin: 0;
+}
 
 
 	.zen-resources ul {
@@ -127,5 +126,6 @@
     
     }
 
+@media only screen and (min-width: 1132px){
 
-@media only screen and (min-width:768px){}
+}
