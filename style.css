@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Limelight|Old+Standard+TT|Over+the+Rainbow");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Anton");
 /* -------------------------------- 
 
 xBackground 
@@ -205,47 +207,47 @@ p {
     width: 34%;
     background: transparent; } }
 
-/* line 11, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 13, /Users/jalynzamora/Documents/WWD331/style.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 17, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 19, /Users/jalynzamora/Documents/WWD331/style.scss */
 html {
   overflow-y: auto;
   background-image: url(map.jpg);
   background-size: 42em; }
 
-/* line 23, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 25, /Users/jalynzamora/Documents/WWD331/style.scss */
 body {
   font-family: "Old Standard TT", serif;
   color: #3f3d3a;
   overflow: auto; }
 
-/* line 29, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 31, /Users/jalynzamora/Documents/WWD331/style.scss */
 div {
   display: block; }
 
-/* line 33, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 35, /Users/jalynzamora/Documents/WWD331/style.scss */
 a {
   color: #e5452c; }
 
-/* line 37, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 39, /Users/jalynzamora/Documents/WWD331/style.scss */
 a:hover,
 a:focus {
   color: #3f3d3a; }
 
-/* line 42, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 44, /Users/jalynzamora/Documents/WWD331/style.scss */
 p {
   margin-bottom: 0.15em; }
 
-/* line 48, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 50, /Users/jalynzamora/Documents/WWD331/style.scss */
 a:link {
   text-decoration: none;
   color: #8da19c; }
 
-/* line 69, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 73, /Users/jalynzamora/Documents/WWD331/style.scss */
 h1::before {
   display: inline-block;
   position: relative;
@@ -258,41 +260,41 @@ h1::before {
   background-size: 100%;
   background-repeat: no-repeat; }
 
-/* line 83, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 87, /Users/jalynzamora/Documents/WWD331/style.scss */
 header h2::before {
   content: " ";
   padding: 50px; }
 
-/* line 91, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 95, /Users/jalynzamora/Documents/WWD331/style.scss */
 .summary {
   padding-top: 2em;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Anton', sans-serif; }
 
-/* line 96, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 101, /Users/jalynzamora/Documents/WWD331/style.scss */
 .summary .preamble {
   width: 80%;
   margin: 0 auto; }
 
-/* line 119, /Users/jalynzamora/Documents/WWD331/style.scss */
+/* line 124, /Users/jalynzamora/Documents/WWD331/style.scss */
 div.explanation,
 div.benefits {
   background-attachment: scroll, scroll, fixed;
-  background-color: rgba(138, 188, 159, 0.5);
-  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  background-color: #e4bb90;
   background-repeat: repeat, repeat, no-repeat;
   background-size: auto, auto, cover; }
 
 @media only screen and (min-width: 768px) {
-  /* line 130, /Users/jalynzamora/Documents/WWD331/style.scss */
+  /* line 135, /Users/jalynzamora/Documents/WWD331/style.scss */
   html {
     background-image: url(); }
-  /* line 135, /Users/jalynzamora/Documents/WWD331/style.scss */
+  /* line 140, /Users/jalynzamora/Documents/WWD331/style.scss */
   header h1,
   h2 {
     position: relative;
     top: 30px;
     padding: 30px; }
-  /* line 141, /Users/jalynzamora/Documents/WWD331/style.scss */
+  /* line 146, /Users/jalynzamora/Documents/WWD331/style.scss */
   .summary,
   .preamble,
   .supporting div,
@@ -304,7 +306,7 @@ div.benefits {
     padding: 1em 5% 1em 10%; } }
 
 @media only screen and (min-width: 1132px) {
-  /* line 157, /Users/jalynzamora/Documents/WWD331/style.scss */
+  /* line 162, /Users/jalynzamora/Documents/WWD331/style.scss */
   .summary,
   .participation p,
   .preamble p,
@@ -317,10 +319,10 @@ div.benefits {
     width: 75%;
     clear: left;
     padding: 1em 5% 1em 10%; }
-  /* line 172, /Users/jalynzamora/Documents/WWD331/style.scss */
+  /* line 177, /Users/jalynzamora/Documents/WWD331/style.scss */
   .summary, .preamble {
     margin: 0 auto; }
-  /* line 176, /Users/jalynzamora/Documents/WWD331/style.scss */
+  /* line 181, /Users/jalynzamora/Documents/WWD331/style.scss */
   h1::before {
     display: inline-block;
     position: relative;
