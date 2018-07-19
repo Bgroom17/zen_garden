@@ -152,47 +152,65 @@ p {
     line-height: 1.6; } }
 
 @media only screen and (min-width: 1132px) {
-  /* line 128, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 127, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   nav,
   .supporting {
     display: inline; }
-  /* line 133, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
-  .design-selection,
+  /* line 132, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-archives, .design-selection,
   .zen-resources {
     position: absolute;
-    top: 360px;
+    top: 720px;
     right: 0;
     width: 33.3%;
     padding: 0 0 20px 0;
     margin: 0;
     overflow: visible;
     background: transparent; }
-  /* line 144, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 143, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-archives {
+    position: absolute;
+    top: 520px;
+    right: 0;
+    width: 33.3%;
+    padding: 0 0 20px 0;
+    margin: 0;
+    overflow: visible;
+    background: transparent; }
+  /* line 153, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .design-selection {
     margin: 3em 0 0; }
-  /* line 147, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 156, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   design-selection ul,
   .zen-resources ul {
     margin: 0; }
-  /* line 151, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 160, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .design-selection li {
-    float: right;
+    text-align: center;
+    float: none;
     width: 100% !important;
-    padding: 0 !important;
+    padding: 1em !important;
     margin-bottom: 2em; }
-  /* line 157, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
-  .design-selection li {
-    font-size: 1.2rem;
-    margin: 0 0 1em;
-    color: #aaa;
-    display: list-item;
-    text-align: -webkit-match-parent; }
-  /* line 165, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 167, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .zen-resources li {
+    text-align: center;
+    float: none;
+    width: 100% !important;
+    padding: 1em !important;
+    margin-bottom: .5em; }
+  /* line 175, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  .design-archives li {
+    text-align: center;
+    float: none;
+    width: 100% !important;
+    padding: 1em !important;
+    margin-bottom: .5em; }
+  /* line 184, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .sidebar ul {
     padding: 0;
     list-style: none;
     overflow: hidden; }
-  /* line 170, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 189, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   ul,
   menu,
   dir {
@@ -202,16 +220,26 @@ p {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px; }
-  /* line 180, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 199, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   body {
     font-size: 100%;
     color: #325050; }
-  /* line 185, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  /* line 204, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
   .zen-resources {
     top: 1490px;
     position: absolute;
     right: 0;
     width: 34%;
+    background: transparent; }
+  /* line 211, /Users/jalynzamora/Documents/WWD331/style-guide-template/scss/partials/_sidebar.scss */
+  footer {
+    position: absolute;
+    top: 420px;
+    right: 0;
+    width: 23.3%;
+    padding: 0 0 20px 0;
+    margin: 0;
+    overflow: visible;
     background: transparent; } }
 
 /* line 13, /Users/jalynzamora/Documents/WWD331/style.scss */

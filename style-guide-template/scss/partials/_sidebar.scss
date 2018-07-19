@@ -121,7 +121,6 @@
 
 	.supporting {}
 
-	footer {}
 }
 
 @media only screen and (min-width: 1132px) {
@@ -130,10 +129,20 @@
 		display: inline;
 	}
 
-	.design-selection,
+	.design-archives, .design-selection,
 	.zen-resources {
 		position: absolute;
-		top: 360px;
+		top: 720px;
+		right: 0;
+		width: 33.3%;
+		padding: 0 0 20px 0;
+		margin: 0;
+		overflow: visible;
+		background: transparent;
+	}
+	.design-archives{
+		position: absolute;
+		top: 520px;
 		right: 0;
 		width: 33.3%;
 		padding: 0 0 20px 0;
@@ -149,18 +158,28 @@
 		margin: 0;
 	}
 	.design-selection li {
-		float: right;
+		text-align: center;
+		float: none;
 		width: 100% !important;
-		padding: 0 !important;
+		padding: 1em !important;
 		margin-bottom: 2em;
 	}
-	.design-selection li {
-		font-size: 1.2rem;
-		margin: 0 0 1em;
-		color: #aaa;
-		display: list-item;
-		text-align: -webkit-match-parent;
+	.zen-resources li{
+		text-align: center;
+		float: none;
+		width: 100% !important;
+		padding: 1em !important;
+		margin-bottom: .5em;
 	}
+	
+	.design-archives li{
+		text-align: center;
+		float: none;
+		width: 100% !important;
+		padding: 1em !important;
+		margin-bottom: .5em;
+	}
+	
 
 	.sidebar ul {
 		padding: 0;
@@ -187,6 +206,16 @@
 		position: absolute;
 		right: 0;
 		width: 34%;
+		background: transparent;
+	}
+	footer {
+		position: absolute;
+		top: 420px;
+		right: 0;
+		width: 23.3%;
+		padding: 0 0 20px 0;
+		margin: 0;
+		overflow: visible;
 		background: transparent;
 	}
 
