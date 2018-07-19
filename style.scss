@@ -1,5 +1,7 @@
 //google fonts
 @import url('https://fonts.googleapis.com/css?family=Limelight|Old+Standard+TT|Over+the+Rainbow');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 
 //partials
 @import 'style-guide-template/scss/partials/color-palette'; // color palette
@@ -56,7 +58,9 @@ abbr {}
 
 
 
-.intro {}
+.intro {
+    
+}
 
 
 h1::before {
@@ -84,6 +88,7 @@ header {}
 .summary {
 	padding-top: 2em;
 	text-align: center;
+    font-family: 'Anton', sans-serif;
 }
 
 .summary .preamble {
@@ -112,11 +117,11 @@ header {}
 div.explanation,
 div.benefits {
 	background-attachment: scroll, scroll, fixed;
-	background-color: rgba(138, 188, 159, 0.5);
-	background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+	background-color: $color-5;
 	background-repeat: repeat, repeat, no-repeat;
 	background-size: auto, auto, cover;
 }
+
 
 
 @media only screen and (min-width:768px) {
