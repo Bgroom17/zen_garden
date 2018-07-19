@@ -51,7 +51,7 @@ p {
   color: #404040; }
   /* line 41, /Users/andreawagner/Documents/WDD 331/zen_garden/style-guide-template/scss/partials/_typography.scss */
   p a {
-    color: #4d767e;
+    color: black;
     text-decoration: underline; }
 
 @media only screen and (max-width: 768px) {
