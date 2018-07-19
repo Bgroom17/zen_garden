@@ -124,17 +124,30 @@
 }
 
 @media only screen and (min-width: 1132px) {
+	article,
+	aside,
+	footer,
+	header,
+	hgroup,
+	main,
+	nav,
+	section {
+		display: block;
+	}
 	nav,
 	.supporting {
 		display: inline;
 	}
-	
-	.design-archives, .design-selection,
-	.zen-resources, footer{
+
+	.design-archives,
+	.design-selection,
+	.zen-resources,
+	footer {
 		font-family: 'Raleway', sans-serif;
 	}
 
-	.design-archives, .design-selection,
+	.design-archives,
+	.design-selection,
 	.zen-resources {
 		position: absolute;
 		top: 720px;
@@ -145,7 +158,7 @@
 		overflow: visible;
 		background: transparent;
 	}
-	.design-archives{
+	.design-archives {
 		position: absolute;
 		top: 520px;
 		right: 0;
@@ -169,59 +182,65 @@
 		padding: 1em !important;
 		margin-bottom: 2em;
 	}
-	.zen-resources li{
+	.zen-resources li {
 		text-align: center;
 		float: none;
 		width: 100% !important;
 		padding: 1em !important;
 		margin-bottom: .5em;
 	}
-	
-	.design-archives li{
+
+	.design-archives li {
 		text-align: center;
 		float: none;
 		width: 100% !important;
 		padding: 1em !important;
 		margin-bottom: .5em;
 	}
-	
 
-	.sidebar ul {
-		padding: 0;
-		list-style: none;
-		overflow: hidden;
-	}
-	ul,
-	menu,
-	dir {
-		display: block;
-		-webkit-margin-before: 1em;
-		-webkit-margin-after: 1em;
-		-webkit-margin-start: 0px;
-		-webkit-margin-end: 0px;
-		-webkit-padding-start: 40px;
-	}
-	body {
-		font-size: 100%;
-		color: #325050;
-	}
 
-	.zen-resources {
-		top: 1490px;
-		position: absolute;
-		right: 0;
-		width: 34%;
-		background: transparent;
-	}
-	footer {
-		position: absolute;
-		top: 420px;
-		right: 0;
-		width: 22.3%;
-		padding: 0 0 20px 0;
-		margin: 0;
-		overflow: visible;
-		background: transparent;
-	}
+
+.sidebar ul {
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+ul,
+menu,
+dir {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+
+body {
+	font-size: 100%;
+	color: #325050;
+}
+
+.zen-resources {
+	top: 1490px;
+	position: absolute;
+	right: 0;
+	width: 34%;
+	background: transparent;
+}
+
+footer {
+	position: absolute;
+	top: 420px;
+	right: 0;
+	width: 22.3%;
+	padding: 0 0 20px 0;
+	margin: 0;
+	overflow: visible;
+	background: transparent;
+}
+
+
 
 }
